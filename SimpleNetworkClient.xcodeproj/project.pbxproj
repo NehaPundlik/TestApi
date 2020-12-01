@@ -252,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1D0A09072576C27500E559EA /* Build configuration list for PBXProject "TestApi" */;
+			buildConfigurationList = 1D0A09072576C27500E559EA /* Build configuration list for PBXProject "SimpleNetworkClient" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -603,7 +603,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1D0A09072576C27500E559EA /* Build configuration list for PBXProject "TestApi" */ = {
+		1D0A09072576C27500E559EA /* Build configuration list for PBXProject "SimpleNetworkClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D0A09392576C27900E559EA /* Debug */,
