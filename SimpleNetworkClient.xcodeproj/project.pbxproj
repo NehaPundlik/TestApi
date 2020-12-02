@@ -14,7 +14,6 @@
 		1D0A091F2576C27800E559EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D0A091D2576C27800E559EA /* LaunchScreen.storyboard */; };
 		1D0A09222576C27800E559EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A09212576C27800E559EA /* main.m */; };
 		1D0A092C2576C27900E559EA /* TestApiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A092B2576C27900E559EA /* TestApiTests.m */; };
-		1D0A09372576C27900E559EA /* TestApiUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A09362576C27900E559EA /* TestApiUITests.m */; };
 		1D0A094A2576C68F00E559EA /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A09492576C68F00E559EA /* Post.swift */; };
 		1D0A09522576C82A00E559EA /* PostService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A09512576C82A00E559EA /* PostService.swift */; };
 		1D0A09582576D45B00E559EA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0A09572576D45B00E559EA /* ViewModel.swift */; };
@@ -31,17 +30,10 @@
 			remoteGlobalIDString = 1D0A090B2576C27500E559EA;
 			remoteInfo = TestApi;
 		};
-		1D0A09332576C27900E559EA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1D0A09042576C27500E559EA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1D0A090B2576C27500E559EA;
-			remoteInfo = TestApi;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0A090C2576C27500E559EA /* TestApi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A090C2576C27500E559EA /* SimpleNetworkClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleNetworkClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0A090F2576C27500E559EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D0A09102576C27500E559EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D0A09122576C27500E559EA /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
@@ -51,12 +43,9 @@
 		1D0A091E2576C27800E559EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D0A09202576C27800E559EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0A09212576C27800E559EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1D0A09272576C27900E559EA /* TestApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D0A09272576C27900E559EA /* SimpleNetworkClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleNetworkClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0A092B2576C27900E559EA /* TestApiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApiTests.m; sourceTree = "<group>"; };
 		1D0A092D2576C27900E559EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1D0A09322576C27900E559EA /* TestApiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestApiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D0A09362576C27900E559EA /* TestApiUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestApiUITests.m; sourceTree = "<group>"; };
-		1D0A09382576C27900E559EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D0A09492576C68F00E559EA /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		1D0A09512576C82A00E559EA /* PostService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostService.swift; sourceTree = "<group>"; };
 		1D0A09572576D45B00E559EA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -80,22 +69,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D0A092F2576C27900E559EA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1D0A09032576C27500E559EA = {
 			isa = PBXGroup;
 			children = (
-				1D0A090E2576C27500E559EA /* TestApi */,
-				1D0A092A2576C27900E559EA /* TestApiTests */,
-				1D0A09352576C27900E559EA /* TestApiUITests */,
+				1D0A090E2576C27500E559EA /* SimpleNetworkClient */,
+				1D0A092A2576C27900E559EA /* SimpleNetworkClientTests */,
 				1D0A090D2576C27500E559EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -103,14 +84,13 @@
 		1D0A090D2576C27500E559EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D0A090C2576C27500E559EA /* TestApi.app */,
-				1D0A09272576C27900E559EA /* TestApiTests.xctest */,
-				1D0A09322576C27900E559EA /* TestApiUITests.xctest */,
+				1D0A090C2576C27500E559EA /* SimpleNetworkClient.app */,
+				1D0A09272576C27900E559EA /* SimpleNetworkClientTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1D0A090E2576C27500E559EA /* TestApi */ = {
+		1D0A090E2576C27500E559EA /* SimpleNetworkClient */ = {
 			isa = PBXGroup;
 			children = (
 				1D0A09562576D44700E559EA /* View */,
@@ -126,25 +106,16 @@
 				1D0A09202576C27800E559EA /* Info.plist */,
 				1D0A09212576C27800E559EA /* main.m */,
 			);
-			path = TestApi;
+			path = SimpleNetworkClient;
 			sourceTree = "<group>";
 		};
-		1D0A092A2576C27900E559EA /* TestApiTests */ = {
+		1D0A092A2576C27900E559EA /* SimpleNetworkClientTests */ = {
 			isa = PBXGroup;
 			children = (
 				1D0A092B2576C27900E559EA /* TestApiTests.m */,
 				1D0A092D2576C27900E559EA /* Info.plist */,
 			);
-			path = TestApiTests;
-			sourceTree = "<group>";
-		};
-		1D0A09352576C27900E559EA /* TestApiUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1D0A09362576C27900E559EA /* TestApiUITests.m */,
-				1D0A09382576C27900E559EA /* Info.plist */,
-			);
-			path = TestApiUITests;
+			path = SimpleNetworkClientTests;
 			sourceTree = "<group>";
 		};
 		1D0A09472576C29200E559EA /* Model */ = {
@@ -177,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1D0A090B2576C27500E559EA /* TestApi */ = {
+		1D0A090B2576C27500E559EA /* SimpleNetworkClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D0A093B2576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApi" */;
+			buildConfigurationList = 1D0A093B2576C27900E559EA /* Build configuration list for PBXNativeTarget "SimpleNetworkClient" */;
 			buildPhases = (
 				1D0A09082576C27500E559EA /* Sources */,
 				1D0A09092576C27500E559EA /* Frameworks */,
@@ -189,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = TestApi;
+			name = SimpleNetworkClient;
 			productName = TestApi;
-			productReference = 1D0A090C2576C27500E559EA /* TestApi.app */;
+			productReference = 1D0A090C2576C27500E559EA /* SimpleNetworkClient.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1D0A09262576C27900E559EA /* TestApiTests */ = {
+		1D0A09262576C27900E559EA /* SimpleNetworkClientTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1D0A093E2576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApiTests" */;
+			buildConfigurationList = 1D0A093E2576C27900E559EA /* Build configuration list for PBXNativeTarget "SimpleNetworkClientTests" */;
 			buildPhases = (
 				1D0A09232576C27900E559EA /* Sources */,
 				1D0A09242576C27900E559EA /* Frameworks */,
@@ -207,28 +178,10 @@
 			dependencies = (
 				1D0A09292576C27900E559EA /* PBXTargetDependency */,
 			);
-			name = TestApiTests;
+			name = SimpleNetworkClientTests;
 			productName = TestApiTests;
-			productReference = 1D0A09272576C27900E559EA /* TestApiTests.xctest */;
+			productReference = 1D0A09272576C27900E559EA /* SimpleNetworkClientTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1D0A09312576C27900E559EA /* TestApiUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1D0A09412576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApiUITests" */;
-			buildPhases = (
-				1D0A092E2576C27900E559EA /* Sources */,
-				1D0A092F2576C27900E559EA /* Frameworks */,
-				1D0A09302576C27900E559EA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1D0A09342576C27900E559EA /* PBXTargetDependency */,
-			);
-			name = TestApiUITests;
-			productName = TestApiUITests;
-			productReference = 1D0A09322576C27900E559EA /* TestApiUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -243,10 +196,6 @@
 						LastSwiftMigration = 1220;
 					};
 					1D0A09262576C27900E559EA = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = 1D0A090B2576C27500E559EA;
-					};
-					1D0A09312576C27900E559EA = {
 						CreatedOnToolsVersion = 12.2;
 						TestTargetID = 1D0A090B2576C27500E559EA;
 					};
@@ -265,9 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1D0A090B2576C27500E559EA /* TestApi */,
-				1D0A09262576C27900E559EA /* TestApiTests */,
-				1D0A09312576C27900E559EA /* TestApiUITests */,
+				1D0A090B2576C27500E559EA /* SimpleNetworkClient */,
+				1D0A09262576C27900E559EA /* SimpleNetworkClientTests */,
 			);
 		};
 /* End PBXProject section */
@@ -284,13 +232,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		1D0A09252576C27900E559EA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1D0A09302576C27900E559EA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -324,26 +265,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1D0A092E2576C27900E559EA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D0A09372576C27900E559EA /* TestApiUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		1D0A09292576C27900E559EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1D0A090B2576C27500E559EA /* TestApi */;
+			target = 1D0A090B2576C27500E559EA /* SimpleNetworkClient */;
 			targetProxy = 1D0A09282576C27900E559EA /* PBXContainerItemProxy */;
-		};
-		1D0A09342576C27900E559EA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1D0A090B2576C27500E559EA /* TestApi */;
-			targetProxy = 1D0A09332576C27900E559EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -487,7 +415,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F95A5JCVZD;
-				INFOPLIST_FILE = TestApi/Info.plist;
+				INFOPLIST_FILE = SimpleNetworkClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -508,7 +436,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = F95A5JCVZD;
-				INFOPLIST_FILE = TestApi/Info.plist;
+				INFOPLIST_FILE = SimpleNetworkClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -562,44 +490,6 @@
 			};
 			name = Release;
 		};
-		1D0A09422576C27900E559EA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F95A5JCVZD;
-				INFOPLIST_FILE = TestApiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.api.TestApiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestApi;
-			};
-			name = Debug;
-		};
-		1D0A09432576C27900E559EA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F95A5JCVZD;
-				INFOPLIST_FILE = TestApiUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.api.TestApiUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = TestApi;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -612,7 +502,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D0A093B2576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApi" */ = {
+		1D0A093B2576C27900E559EA /* Build configuration list for PBXNativeTarget "SimpleNetworkClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D0A093C2576C27900E559EA /* Debug */,
@@ -621,20 +511,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1D0A093E2576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApiTests" */ = {
+		1D0A093E2576C27900E559EA /* Build configuration list for PBXNativeTarget "SimpleNetworkClientTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1D0A093F2576C27900E559EA /* Debug */,
 				1D0A09402576C27900E559EA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1D0A09412576C27900E559EA /* Build configuration list for PBXNativeTarget "TestApiUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1D0A09422576C27900E559EA /* Debug */,
-				1D0A09432576C27900E559EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
